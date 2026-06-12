@@ -95,7 +95,7 @@ Data yang dibutuhkan dalam Sistem Pemesanan Makanan Online adalah sebagai beriku
 ## 6. Diagram Proses
 
 Berikut adalah flowchart proses Sistem Pemesanan Makanan Online:
-[Flowchart_Sistem_Pemesanan_Makanan_Online.png]
+![Flowchart Sistem Pemesanan Makanan Online](Flowchart_Sistem_Pemesanan_Makanan_Online.png)
 
 Alur proses sistem secara umum adalah sebagai berikut:
 
