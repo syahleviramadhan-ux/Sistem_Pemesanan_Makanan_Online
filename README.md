@@ -2,7 +2,7 @@
 
 ## Progres 1 - Analisis Kebutuhan Sistem
 
-## 1. Deskripsi Studi Kasus levi memek
+## 1. Deskripsi Studi Kasus
 
 Sistem Pemesanan Makanan Online adalah sistem yang digunakan untuk membantu pelanggan dalam memesan makanan secara online tanpa harus datang langsung ke tempat makan. Melalui sistem ini, pelanggan dapat melihat daftar menu, memilih makanan, memasukkan jumlah pesanan, melakukan checkout, memilih metode pembayaran, dan melihat status pesanan.
 
