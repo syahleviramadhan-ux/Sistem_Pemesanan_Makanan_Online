@@ -291,8 +291,8 @@ Pada tahap 1NF, setiap data harus memiliki nilai tunggal. Oleh karena itu, menu 
 
 | id_pesanan | nama_pelanggan | alamat | menu_dipesan | jumlah | harga | subtotal | metode_pembayaran | nama_kurir |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Rizki | Tanjungpinang | Nasi Goreng | 2 | 15000 | 30000 | Transfer | Andi |
-| 1 | Rizki | Tanjungpinang | Es Teh | 1 | 5000 | 5000 | Transfer | Andi |
+| 1 | Zafaa | Tanjungpinang | Nasi Goreng | 2 | 15000 | 30000 | Transfer | Andi |
+| 1 | Haikhal | Tanjungpinang | Es Teh | 1 | 5000 | 5000 | Transfer | Arya |
 
 Pada tahap 1NF, data sudah memiliki nilai tunggal. Namun, masih terdapat pengulangan data seperti nama pelanggan, alamat, metode pembayaran, dan nama kurir.
 
