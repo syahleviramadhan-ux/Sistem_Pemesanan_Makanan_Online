@@ -6,7 +6,7 @@ ERD atau Entity Relationship Diagram digunakan untuk menggambarkan rancangan bas
 
 Berikut adalah ERD dari Sistem Pemesanan Makanan Online:
 
-![ERD Sistem Pemesanan Makanan Online](ERD_Sistem_Pemesanan_Makanan_Online.png)
+![ERD Sistem Pemesanan Makanan Online](ERD_SISTEM_PEMESANAN_MAKANAN_ONLINE.jpeg)
 
 Entitas yang digunakan dalam ERD ini terdiri dari pelanggan, admin, kategori menu, menu, pesanan, detail pesanan, pembayaran, kurir, dan pengiriman. Setiap entitas memiliki primary key sebagai identitas utama dan beberapa entitas memiliki foreign key sebagai penghubung antar tabel.
 
