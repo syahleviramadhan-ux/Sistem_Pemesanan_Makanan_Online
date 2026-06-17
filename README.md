@@ -152,7 +152,7 @@ Entitas yang digunakan dalam ERD ini terdiri dari pelanggan, admin, kategori men
 
 ## 2. Penjelasan Entitas dan Relasi
 
-### 2.1 Penjelasan Entitas
+### Penjelasan Entitas
 
 | No | Entitas | Penjelasan |
 |---|---|---|
@@ -166,7 +166,7 @@ Entitas yang digunakan dalam ERD ini terdiri dari pelanggan, admin, kategori men
 | 8 | Kurir | Menyimpan data kurir yang bertugas mengantar pesanan kepada pelanggan. |
 | 9 | Pengiriman | Menyimpan data pengiriman pesanan, seperti alamat tujuan dan status pengiriman. |
 
-### 2.2 Penjelasan Relasi
+### Penjelasan Relasi
 
 | No | Relasi | Kardinalitas | Penjelasan |
 |---|---|---|---|
@@ -183,7 +183,7 @@ Entitas yang digunakan dalam ERD ini terdiri dari pelanggan, admin, kategori men
 
 Kamus data digunakan untuk menjelaskan struktur data pada setiap tabel dalam database Sistem Pemesanan Makanan Online.
 
-### 3.1 Tabel Pelanggan
+### Tabel Pelanggan
 
 | Nama Field | Tipe Data | Key | Keterangan |
 |---|---|---|---|
@@ -194,7 +194,7 @@ Kamus data digunakan untuk menjelaskan struktur data pada setiap tabel dalam dat
 | no_hp | VARCHAR(20) | - | Nomor handphone pelanggan |
 | alamat | TEXT | - | Alamat pelanggan |
 
-### 3.2 Tabel Admin
+### Tabel Admin
 
 | Nama Field | Tipe Data | Key | Keterangan |
 |---|---|---|---|
@@ -203,14 +203,14 @@ Kamus data digunakan untuk menjelaskan struktur data pada setiap tabel dalam dat
 | username | VARCHAR(50) | - | Username admin |
 | password | VARCHAR(100) | - | Password akun admin |
 
-### 3.3 Tabel Kategori Menu
+### Tabel Kategori Menu
 
 | Nama Field | Tipe Data | Key | Keterangan |
 |---|---|---|---|
 | id_kategori | INT | PK | ID unik kategori menu |
 | nama_kategori | VARCHAR(50) | - | Nama kategori menu |
 
-### 3.4 Tabel Menu
+### Tabel Menu
 
 | Nama Field | Tipe Data | Key | Keterangan |
 |---|---|---|---|
@@ -223,7 +223,7 @@ Kamus data digunakan untuk menjelaskan struktur data pada setiap tabel dalam dat
 | stok | INT | - | Jumlah stok menu |
 | gambar | VARCHAR(255) | - | Nama atau lokasi file gambar menu |
 
-### 3.5 Tabel Pesanan
+### Tabel Pesanan
 
 | Nama Field | Tipe Data | Key | Keterangan |
 |---|---|---|---|
@@ -233,7 +233,7 @@ Kamus data digunakan untuk menjelaskan struktur data pada setiap tabel dalam dat
 | total_harga | INT | - | Total harga pesanan |
 | status_pesanan | VARCHAR(50) | - | Status pesanan, seperti diproses, dikirim, atau selesai |
 
-### 3.6 Tabel Detail Pesanan
+### Tabel Detail Pesanan
 
 | Nama Field | Tipe Data | Key | Keterangan |
 |---|---|---|---|
@@ -243,7 +243,7 @@ Kamus data digunakan untuk menjelaskan struktur data pada setiap tabel dalam dat
 | jumlah | INT | - | Jumlah menu yang dipesan |
 | subtotal | INT | - | Total harga per menu berdasarkan jumlah pesanan |
 
-### 3.7 Tabel Pembayaran
+### Tabel Pembayaran
 
 | Nama Field | Tipe Data | Key | Keterangan |
 |---|---|---|---|
@@ -253,7 +253,7 @@ Kamus data digunakan untuk menjelaskan struktur data pada setiap tabel dalam dat
 | status_pembayaran | VARCHAR(50) | - | Status pembayaran, seperti menunggu, berhasil, atau gagal |
 | tanggal_pembayaran | DATE | - | Tanggal pembayaran dilakukan |
 
-### 3.8 Tabel Kurir
+### Tabel Kurir
 
 | Nama Field | Tipe Data | Key | Keterangan |
 |---|---|---|---|
@@ -261,7 +261,7 @@ Kamus data digunakan untuk menjelaskan struktur data pada setiap tabel dalam dat
 | nama_kurir | VARCHAR(100) | - | Nama kurir |
 | no_hp | VARCHAR(20) | - | Nomor handphone kurir |
 
-### 3.9 Tabel Pengiriman
+### Tabel Pengiriman
 
 | Nama Field | Tipe Data | Key | Keterangan |
 |---|---|---|---|
@@ -275,28 +275,28 @@ Kamus data digunakan untuk menjelaskan struktur data pada setiap tabel dalam dat
 
 Normalisasi database dilakukan untuk membuat struktur data menjadi lebih rapi, mengurangi pengulangan data, dan mencegah kesalahan dalam pengelolaan data. Pada Sistem Pemesanan Makanan Online, normalisasi dilakukan dari bentuk tidak normal sampai bentuk 3NF.
 
-### 4.1 Bentuk Tidak Normal / UNF
+### Bentuk Tidak Normal / UNF
 
 Pada bentuk tidak normal, data pesanan masih digabung dalam satu tabel besar. Menu yang dipesan juga masih ditulis dalam satu kolom sehingga data kurang rapi.
 
 | id_pesanan | nama_pelanggan | alamat | menu_dipesan | jumlah | harga | total | metode_pembayaran | nama_kurir |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Rizki | Tanjungpinang | Nasi Goreng, Es Teh | 2, 1 | 15000, 5000 | 35000 | Transfer | Andi |
+| 1 | Rizki | Tanjungpinang | Nasi Goreng, Es Teh | 2, 1 | 15000, 5000 | 35000 | Transfer | Raihan GO GREEN |
 
 Permasalahan pada bentuk UNF adalah data menu, jumlah, dan harga masih digabung dalam satu kolom. Hal ini dapat menyulitkan proses pencarian, perhitungan, dan pengelolaan data.
 
-### 4.2 Normalisasi 1NF
+### Normalisasi 1NF
 
 Pada tahap 1NF, setiap data harus memiliki nilai tunggal. Oleh karena itu, menu yang sebelumnya digabung dalam satu kolom dipisahkan menjadi beberapa baris.
 
 | id_pesanan | nama_pelanggan | alamat | menu_dipesan | jumlah | harga | subtotal | metode_pembayaran | nama_kurir |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Zafaa | Tanjungpinang | Nasi Goreng | 2 | 15000 | 30000 | Transfer | Rehan |
-| 1 | Haikhal | Tanjungpinang | Es Teh | 1 | 5000 | 5000 | Transfer | Arya |
+| 1 | Rizki | Tanjungpinang | Nasi Goreng | 2 | 15000 | 30000 | Transfer | Raihan GO GREEN |
+| 1 | Rizki | Tanjungpinang | Es Teh | 1 | 5000 | 5000 | Transfer | Raihan GO GREEN |
 
 Pada tahap 1NF, data sudah memiliki nilai tunggal. Namun, masih terdapat pengulangan data seperti nama pelanggan, alamat, metode pembayaran, dan nama kurir.
 
-### 4.3 Normalisasi 2NF
+### Normalisasi 2NF
 
 Pada tahap 2NF, data yang tidak bergantung langsung pada detail pesanan dipisahkan ke dalam tabel masing-masing.
 
@@ -309,7 +309,7 @@ Pada tahap 2NF, data yang tidak bergantung langsung pada detail pesanan dipisahk
 
 Pada tahap ini, data menjadi lebih rapi karena informasi pelanggan dan menu tidak lagi ditulis berulang dalam setiap transaksi.
 
-### 4.4 Normalisasi 3NF
+### Normalisasi 3NF
 
 Pada tahap 3NF, data yang masih memiliki ketergantungan tidak langsung dipisahkan lagi ke dalam tabel baru.
 
@@ -339,5 +339,7 @@ Pada Progres 2, terdapat beberapa penyesuaian dari analisis kebutuhan sistem pad
 | 4 | Menambahkan data pengiriman | Agar alamat tujuan dan status pengiriman dapat tercatat. |
 | 5 | Menambahkan data kurir | Agar proses pengantaran pesanan dapat dikelola dengan baik. |
 | 6 | Menyesuaikan kebutuhan data | Agar kebutuhan data sesuai dengan entitas yang terdapat pada ERD. |
+
+Dengan adanya revisi ini, rancangan Sistem Pemesanan Makanan Online menjadi lebih lengkap dan sesuai dengan kebutuhan database.
 
 Dengan adanya revisi ini, rancangan Sistem Pemesanan Makanan Online menjadi lebih lengkap dan sesuai dengan kebutuhan database.
