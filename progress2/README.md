@@ -201,3 +201,19 @@ Pada Progres 2, terdapat beberapa penyesuaian dari analisis kebutuhan sistem pad
 | 6 | Menyesuaikan kebutuhan data | Agar kebutuhan data sesuai dengan entitas yang terdapat pada ERD. |
 
 Dengan adanya revisi ini, rancangan Sistem Pemesanan Makanan Online menjadi lebih lengkap dan sesuai dengan kebutuhan database.
+
+## 6. Pembagian Tugas Kelompok1
+1. Rizki Ardiansyah (2501020097)
+   Mengerjakan bagian Penjelasan ERD Lengkap serta  Penjelasan Entitas dan Relasi
+
+2. Muhammad Rizqi Wijaya (2501020093)
+   Mengerjakan bagian Kamus Data
+
+3. Muhammad Rayhan Syaputra (2501020101)
+   Mengerjakan bagian Rangka ERD 
+
+4. Syah Levi Rayyan Ramadhan (2501020107)
+   Mengerjakan bagian Normalisasi Database dan Revisi Analisis Kebutuhan
+
+
+
