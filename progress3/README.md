@@ -133,7 +133,7 @@ Query ini digunakan untuk menampilkan pesanan pelanggan yang menggunakan metode 
 
 Query ini digunakan untuk menghitung total pendapatan dari seluruh pesanan yang status pembayarannya berhasil.
 
-![Total Pendapatan](screenshots/ss_query_08_total_pendapatan.png)
+![Total Pendapatan](Query_menghitung_total_pendapatan_dari_pembayaran_yang_berhasil.png)
 
 ### 6.9 Menampilkan Pesanan yang Belum Selesai
 
