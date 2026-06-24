@@ -121,7 +121,7 @@ Query ini digunakan untuk menampilkan detail pesanan pelanggan, seperti nama pel
 
 Query ini digunakan untuk menampilkan data pengiriman pesanan, alamat tujuan, kurir yang bertugas, dan status pengiriman.
 
-![Pengiriman Kurir](screenshots/ss_query_06_pengiriman_kurir.png)
+![Pengiriman Kurir](Query_menampilkan_data_pengiriman_beserta_kurir_dan_pelanggan.png)
 
 ### 6.7 Menampilkan Pesanan dengan Metode Pembayaran COD
 
