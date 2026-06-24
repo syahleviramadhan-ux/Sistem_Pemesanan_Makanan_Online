@@ -91,7 +91,7 @@ Berikut adalah screenshot hasil implementasi database dan pengujian query SQL.
 
 Query ini digunakan untuk memastikan bahwa seluruh tabel berhasil dibuat pada database.
 
-![Show Tables](progress3/SHOW TABLES.png)
+![Show Tables](progress3/SHOW_TABLES.png)
 
 ### 6.2 Menampilkan Data Pelanggan
 
