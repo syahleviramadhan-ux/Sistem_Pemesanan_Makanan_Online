@@ -109,7 +109,7 @@ Query ini digunakan untuk menampilkan seluruh data menu yang tersedia pada siste
 
 Query ini digunakan untuk menampilkan daftar menu lengkap dengan kategori dan admin yang mengelola menu tersebut.
 
-![Menu Kategori Admin](screenshots/ss_query_04_menu_kategori_admin.png)
+![Menu Kategori Admin](Query_daftar_menu_beserta_kategori_dan_admin_pengelola.png)
 
 ### 6.5 Menampilkan Detail Pesanan
 
