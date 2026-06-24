@@ -115,7 +115,7 @@ Query ini digunakan untuk menampilkan daftar menu lengkap dengan kategori dan ad
 
 Query ini digunakan untuk menampilkan detail pesanan pelanggan, seperti nama pelanggan, nama menu, jumlah pesanan, dan subtotal.
 
-![Detail Pesanan](screenshots/ss_query_05_detail_pesanan.png)
+![Detail Pesanan](Query_menampilkan_data_pesanan_lengkap.png)
 
 ### 6.6 Menampilkan Data Pengiriman dan Kurir
 
