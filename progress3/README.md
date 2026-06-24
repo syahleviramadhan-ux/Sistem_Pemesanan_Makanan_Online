@@ -91,7 +91,7 @@ Berikut adalah screenshot hasil implementasi database dan pengujian query SQL.
 
 Query ini digunakan untuk memastikan bahwa seluruh tabel berhasil dibuat pada database.
 
-![ERD Sistem Pemesanan Makanan Online](ERD_SISTEM_PEMESANAN_MAKANAN_ONLINE.jpeg)
+![ERD Sistem Pemesanan Makanan Online](progress3/SHOW TABLES.png)
 
 ### 6.2 Menampilkan Data Pelanggan
 
