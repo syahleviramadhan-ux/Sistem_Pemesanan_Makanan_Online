@@ -145,7 +145,7 @@ Query ini digunakan untuk menampilkan data pesanan yang belum selesai, yaitu pes
 
 Query ini digunakan untuk mengubah status pesanan dan status pengiriman pada pesanan tertentu. Setelah dilakukan update, query pengecekan dijalankan untuk memastikan bahwa status berhasil berubah.
 
-![Update Status](screenshots/ss_query_10_update_status.png)
+![Update Status](Query_update_status.png)
 
 ## 7. Kesimpulan
 
