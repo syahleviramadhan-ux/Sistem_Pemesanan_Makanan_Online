@@ -13,7 +13,7 @@ db_pemesanan_makanan_online
 File script SQL lengkap terdapat pada file berikut:
 
 ```text
-progress3.sql
+db_pemesanan_makanan_online.sql
 ```
 
 Script SQL tersebut berisi perintah untuk membuat database, membuat tabel, menentukan primary key, foreign key, unique, not null, check constraint, memasukkan data uji, serta melakukan pengujian query.
