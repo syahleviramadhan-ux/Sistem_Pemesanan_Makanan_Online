@@ -127,7 +127,7 @@ Query ini digunakan untuk menampilkan data pengiriman pesanan, alamat tujuan, ku
 
 Query ini digunakan untuk menampilkan pesanan pelanggan yang menggunakan metode pembayaran COD atau bayar di tempat.
 
-![Pembayaran COD](screenshots/ss_query_07_pembayaran_cod.png)
+![Pembayaran COD](Query_menampilkan_pesanan_dengan_metode_pembayaran_COD.png)
 
 ### 6.8 Menghitung Total Pendapatan
 
