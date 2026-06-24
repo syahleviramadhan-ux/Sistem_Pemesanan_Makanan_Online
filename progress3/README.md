@@ -9,8 +9,6 @@ Database yang digunakan adalah:
 ```sql
 db_pemesanan_makanan_online
 ```
-:::writing{variant="standard" id="61047"}
-```markdown
 File script SQL lengkap terdapat pada file berikut:
 
 [db_pemesanan_makanan_online.sql](db_pemesanan_makanan_online.sql)
