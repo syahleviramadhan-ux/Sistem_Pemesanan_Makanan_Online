@@ -103,7 +103,7 @@ Query ini digunakan untuk menampilkan seluruh data pelanggan yang telah dimasukk
 
 Query ini digunakan untuk menampilkan seluruh data menu yang tersedia pada sistem.
 
-![Data Menu](screenshots/ss_query_03_data_menu.png)
+![Data Menu](Select_from_menu.png)
 
 ### 6.4 Menampilkan Menu Berdasarkan Kategori dan Admin
 
