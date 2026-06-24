@@ -152,3 +152,17 @@ Query ini digunakan untuk mengubah status pesanan dan status pengiriman pada pes
 Berdasarkan hasil implementasi dan pengujian, database Sistem Pemesanan Makanan Online berhasil dibuat sesuai dengan rancangan pada Progres 1 dan Progres 2. Seluruh tabel berhasil dibuat, data uji berhasil dimasukkan, relasi antar tabel dapat berjalan dengan baik, dan query SQL dapat digunakan untuk menampilkan informasi pelanggan, menu, pesanan, pembayaran, serta pengiriman.
 
 Dengan demikian, database sudah dapat digunakan sebagai dasar penyimpanan data untuk Sistem Pemesanan Makanan Online.
+
+
+## 8. Pembagian Tugas Kelompok1
+1. Rizki Ardiansyah (2501020097)
+   Mengerjakan bagian Script dan constraint
+
+2. Muhammad Rizqi Wijaya (2501020093)
+   Mengerjakan bagian Data Uji
+
+3. Muhammad Rayhan Syaputra (2501020101)
+   Mengerjakan bagian Skenario Pengujian
+
+4. Syah Levi Rayyan Ramadhan (2501020107)
+   Mengerjakan bagian Query SQL
