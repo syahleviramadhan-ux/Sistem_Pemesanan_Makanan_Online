@@ -139,7 +139,7 @@ Query ini digunakan untuk menghitung total pendapatan dari seluruh pesanan yang 
 
 Query ini digunakan untuk menampilkan data pesanan yang belum selesai, yaitu pesanan dengan status Menunggu, Diproses, atau Dikirim.
 
-![Pesanan Belum Selesai](screenshots/ss_query_09_pesanan_belum_selesai.png)
+![Pesanan Belum Selesai](Query_menampilkan_pesanan_yang_belum_selesai.png)
 
 ### 6.10 Update Status Pesanan dan Pengiriman
 
