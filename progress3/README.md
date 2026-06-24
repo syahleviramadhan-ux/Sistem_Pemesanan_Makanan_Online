@@ -97,7 +97,7 @@ Query ini digunakan untuk memastikan bahwa seluruh tabel berhasil dibuat pada da
 
 Query ini digunakan untuk menampilkan seluruh data pelanggan yang telah dimasukkan ke dalam database.
 
-![Data Pelanggan](screenshots/ss_query_02_data_pelanggan.png)
+![Data Pelanggan](select_from_pelanggan.png)
 
 ### 6.3 Menampilkan Data Menu
 
