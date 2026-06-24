@@ -9,12 +9,11 @@ Database yang digunakan adalah:
 ```sql
 db_pemesanan_makanan_online
 ```
-
+:::writing{variant="standard" id="61047"}
+```markdown
 File script SQL lengkap terdapat pada file berikut:
 
-```text
-db_pemesanan_makanan_online.sql
-```
+[db_pemesanan_makanan_online.sql](db_pemesanan_makanan_online.sql)
 
 Script SQL tersebut berisi perintah untuk membuat database, membuat tabel, menentukan primary key, foreign key, unique, not null, check constraint, memasukkan data uji, serta melakukan pengujian query.
 
